@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-std=c++23, -Wall, -Wextra, -pedantic, -Wshadow, -Wnon-virtual-dtor, -Wimplicit-fallthrough, -Wlifetime ]
