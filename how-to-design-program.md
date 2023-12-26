@@ -1,5 +1,5 @@
 # Design Steps
-## Define Your Goal
+## 1. Define Your Goal
 - Define goal in 1-2 sentences
 - User-facing outcome
 - Examples:
@@ -8,12 +8,12 @@
     - Generate randomized dungeon
     - Model how long a ball dropped off a tower takes to hit ground
 
-## Define Requirements
+## 2. Define Requirements
 - List constraints, e.g. budget, timeline, space, memory
 - What 'SHOULD' the program do?
 - solution isn't done until all requirements are met
 
-## Define your tools, targets, and backup plan
+## 3. Define your tools, targets, and backup plan
 - Define what target architecure and/or OS your program will run on
 - Determine what set of tools you will be using
 - Determine whether you will write program alone or part of a team
@@ -22,7 +22,7 @@
 - As a new programmer, answers are simple:
     - For own use, alone, on own system, using nvim/g++, code not used by anybody but me.
 
-## Break hard problems down into easy problems
+## 4. Break hard problems down into easy problems
 - Top down method of problem solving
 - task hierarchies define structure of program
     - top level task becomes main
@@ -30,7 +30,7 @@
 - If one of the items is too difficult to implement, simply split that item into multiple sub-items/sub-functions.
     - Eventually you should reach a point where each function in your program is trivial to implement.
 
-## Figure out the sequence of events
+## 5. Figure out the sequence of events
 - Example (Calculator):
     - get first number from user
     - get math operator from user
@@ -39,11 +39,11 @@
     - print result
 
 # Implementation Steps
-## Outlining your main function
+## 6. Outlining your main function
 - Create functions stubs from sequence of events
 - Don't worry about inputs/outputs yet
 
-## Implement each function
+## 7. Implement each function
 - For each function:
     - Define the function prototype (inputs and outputs)
     - Write a function
@@ -53,7 +53,7 @@
 
 - Remember: Don't implement your entire program in one go. WOrk in steps, testing each step along the way before proceeding.
 
-## Final Testing
+## 8. Final Testing
 - Test whole program to ensure it words as intended.
 - Debug!
 
