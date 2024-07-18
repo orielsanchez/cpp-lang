@@ -1,3 +1,0 @@
-/home/oriel/personal/cpp-lang/cmake-3.28.1-tutorial-source/Step1_build/CMakeFiles/Tutorial.dir
-/home/oriel/personal/cpp-lang/cmake-3.28.1-tutorial-source/Step1_build/CMakeFiles/edit_cache.dir
-/home/oriel/personal/cpp-lang/cmake-3.28.1-tutorial-source/Step1_build/CMakeFiles/rebuild_cache.dir
