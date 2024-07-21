@@ -1,10 +1,17 @@
 #include <print>
 
+#include "Student.hpp"
 #include "orielmath.hpp"  // Always include header files, never .cpp files
-
 int main()
 {
     std::println("{}", add(7, 2));
+    {
+        Student oriel;
+        oriel.printName();
+        oriel.setName("Oriel");
+        oriel.printName();
+    }
+
     return 0;
 }
 
