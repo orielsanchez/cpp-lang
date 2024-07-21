@@ -17,7 +17,7 @@ int main()
     std::println("newValue: {}", newValue);
 
     // Could more explicitly call the static cast here to
-    // move the value.
+    // move the value. (move assignment operator)
     myString = static_cast<std::string&&>(newValue);
 
     std::println("myString: {}", myString);
