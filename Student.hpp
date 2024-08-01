@@ -12,5 +12,5 @@ class Student {
 
    private:
     std::string m_name;
-};
+};  // Student
 #endif
