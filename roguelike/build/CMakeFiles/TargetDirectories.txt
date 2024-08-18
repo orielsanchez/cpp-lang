@@ -1,3 +1,0 @@
-/home/oriel/personal/cpp-lang/roguelike/build/CMakeFiles/roguelike.dir
-/home/oriel/personal/cpp-lang/roguelike/build/CMakeFiles/edit_cache.dir
-/home/oriel/personal/cpp-lang/roguelike/build/CMakeFiles/rebuild_cache.dir

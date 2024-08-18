@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/roguelike.dir/src/Person.cpp.o CMakeFiles/roguelike.dir/src/main.cpp.o -o roguelike
