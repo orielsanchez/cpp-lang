@@ -1,6 +1,6 @@
 ---
 Language: Cpp
-BasedOnStyle: Google
+BasedOnStyle: LLVM
 DerivePointerAlignment: false
 IndentWidth: 4
 ---
