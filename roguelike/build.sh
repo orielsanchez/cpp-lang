@@ -7,6 +7,7 @@
 
 # Define the build directory
 BUILD_DIR="build"
+EXECUTABLE=$(basename "$PWD")
 
 # Default build type is Debug
 BUILD_TYPE="Debug"
@@ -41,5 +42,11 @@ cmake -DCMAKE_BUILD_TYPE=$BUILD_TYPE ..
 # Build the project
 cmake --build .
 
+# Run the executable if it exists
+if [ -f "$EXECUTABLE" ]; then
+  ./$EXECUTABLE
+else
+  echo "Executable not found. Build might have failed."
+fi
 # Return to the root directory
 cd ..
