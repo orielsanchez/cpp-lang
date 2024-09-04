@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.30)
 
 # Set the project name
-project(pong)
+project(connectfour)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 23)
@@ -15,9 +15,9 @@ include_directories(${SDL2_INCLUDE_DIRS})
 
 # Add the executables
 file(GLOB SOURCES "src/*.cpp")
-add_executable(pong ${SOURCES})
+add_executable(connectfour ${SOURCES})
 
 # Include header files directory
-target_include_directories(pong PRIVATE ${CMAKE_SOURCE_DIR}/include)
-target_link_libraries(pong ${SDL2_LIBRARIES})
+target_include_directories(connectfour PRIVATE ${CMAKE_SOURCE_DIR}/include)
+target_link_libraries(connectfour ${SDL2_LIBRARIES})
 
